@@ -3,7 +3,7 @@ package pac.main;
 import com.jme3.app.SimpleApplication;
 import com.jme3.app.state.AppState;
 
-public class Pac extends SimpleApplication {
+public class Pac extends SimpleApplication{
 	
 	 public static void main(String[] args) {
 		 Pac app = new Pac();
