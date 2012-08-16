@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="assets"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/xmlpull-xpp3.jar"/>
 	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/vecmath.jar"/>
@@ -20,7 +21,7 @@
 	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/jME3-lwjgl-natives.jar"/>
 	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/jME3-lwjgl.jar"/>
 	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/jME3-jogg.jar"/>
-	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/jME3-jbullet.jar"/>
+	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/jME3-jbullet.jar" sourcepath="/home/pat/workspace/jME3_2012-08-02/source"/>
 	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/jME3-effects.jar"/>
 	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/jME3-desktop.jar"/>
 	<classpathentry kind="lib" path="/home/pat/workspace/jME3_2012-08-02/lib/jME3-core.jar" sourcepath="/home/pat/workspace/jME3_2012-08-02/source">
