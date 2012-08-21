@@ -4,8 +4,6 @@ import pac.main.Pac;
 import pac.utils.Constants;
 
 import com.jme3.input.controls.ActionListener;
-import com.jme3.math.Quaternion;
-import com.jme3.math.Vector3f;
 
 public class actionListener implements ActionListener, Constants {
 
@@ -26,14 +24,8 @@ public class actionListener implements ActionListener, Constants {
     		context.setUp(keyPressed);
     	else if (name.equals(DOWN))
     		context.setDown(keyPressed);
-    	else if (name.equals(SWITCHCAM)){
-    		
-    		Vector3f tr = context.getCamNode().getLocalTranslation();
-			context.getCamNode().setLocalTranslation(tr.x, tr.y, -tr.z);
-			
-			Quaternion rot = context.getCamNode().getLocalRotation();
-  			context.getCamNode().setLocalRotation(new Quaternion(-rot.getZ(),rot.getW(), -rot.getX(), rot.getY())); 
-    	}
+    	else if (name.equals(SWITCHCAM))
+    		context.setSwitchCam (keyPressed);
     		
 	}	
 

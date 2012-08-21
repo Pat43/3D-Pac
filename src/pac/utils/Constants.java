@@ -20,6 +20,8 @@ public interface Constants {
 	
 	/** CAMERA **/
 	Vector3f CAMNODETRANSLATIONVECTOR = new Vector3f(.0f, 5.0f, -30.0f);
+	Vector3f CAMNODEMINTRANSLATIONVECTOR = new Vector3f(.0f, 5.0f, -9.0f);
+	float RAYFACTOR = 1.5f;
 	
 	
 	/** ANIMATION **/
